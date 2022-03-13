@@ -5,10 +5,10 @@ import threading
 import requests
 import wget
 import heroku3
-key="7ad5b9cf-7c8c-4ff5-a016-6186e636d3b7"
+key=""
 nickname="Charlie"
 app_name="acc1222"
-url="https://samar.thehybridklaus.repl.co"
+url=""
 password="samar123"
 def restart():
     heroku_conn = heroku3.from_key(key)
