@@ -5,11 +5,11 @@ import threading
 import requests
 import wget
 import heroku3
-key=""
-nickname="Charlie"
-app_name="acc1222"
-url=""
-password="samar123"
+key="d37b3ed0-0c8a-4d39-8603-41659f92afae"
+nickname="tanjiro"
+app_name="haryyy"
+url="https://Charlie.ratheler93210.repl.co"
+password="Charlie123"
 def restart():
     heroku_conn = heroku3.from_key(key)
     botapp= heroku_conn.apps()[app_name]
